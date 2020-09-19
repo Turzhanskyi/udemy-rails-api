@@ -13,4 +13,8 @@ module Authenticate
 
     json_response 'Unauthenticated', false, {}, :unauthorized
   end
+
+  def correct_user(user)
+    user.id == current_user.id
+  end
 end
