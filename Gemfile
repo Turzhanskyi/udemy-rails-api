@@ -7,6 +7,7 @@ ruby '2.7.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'bootsnap', '1.4.8', require: false
+gem 'devise', '4.7.2'
 gem 'jbuilder', '2.10.1'
 gem 'overcommit', '0.55.0'
 gem 'puma', '5.0.0'
@@ -15,6 +16,7 @@ gem 'rails', '6.0.3.3'
 gem 'rubocop', '0.91.0', require: false
 gem 'rubocop-rails', '2.8.1', require: false
 gem 'sass-rails', '6.0.0'
+gem 'simple_token_authentication', '1.17.0'
 gem 'sqlite3', '1.4.2'
 gem 'turbolinks', '5.2.1'
 gem 'webpacker', '5.2.1'
