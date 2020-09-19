@@ -3,8 +3,6 @@
 module Api
   module V1
     class SessionsController < Devise::SessionsController
-      include Response
-
       before_action :sign_in_params, only: :create
       before_action :load_user, only: :create
       before_action :valid_token, only: :destroy

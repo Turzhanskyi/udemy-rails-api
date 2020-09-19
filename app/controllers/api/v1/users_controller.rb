@@ -3,8 +3,6 @@
 module Api
   module V1
     class UsersController < ApplicationController
-      include Response
-
       def facebook
         if params[:facebook_access_token]
           graph = Koala::Facebook::API.new params[:facebook_access_token]

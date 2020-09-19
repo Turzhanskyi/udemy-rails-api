@@ -3,8 +3,6 @@
 module Api
   module V1
     class RegistrationsController < Devise::RegistrationsController
-      include Response
-
       before_action :ensure_params_exist, only: :create
       # sign up
       def create
