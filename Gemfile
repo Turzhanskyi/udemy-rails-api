@@ -9,6 +9,7 @@ ruby '2.7.1'
 gem 'bootsnap', '1.4.8', require: false
 gem 'devise', '4.7.2'
 gem 'jbuilder', '2.10.1'
+gem 'koala', '3.0.0'
 gem 'overcommit', '0.55.0'
 gem 'puma', '5.0.0'
 gem 'rack-cors', '1.1.1'
