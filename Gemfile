@@ -8,6 +8,7 @@ ruby '2.7.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'bootsnap', '1.4.8', require: false
 gem 'devise', '4.7.2'
+gem 'faker', '2.14.0'
 gem 'jbuilder', '2.10.1'
 gem 'koala', '3.0.0'
 gem 'overcommit', '0.55.0'
