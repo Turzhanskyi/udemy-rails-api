@@ -6,6 +6,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.7.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'active_model_serializers', '0.10.10'
 gem 'bootsnap', '1.4.8', require: false
 gem 'devise', '4.7.2'
 gem 'faker', '2.14.0'
