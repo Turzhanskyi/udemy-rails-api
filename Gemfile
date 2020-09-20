@@ -8,6 +8,7 @@ ruby '2.7.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'active_model_serializers', '0.10.10'
 gem 'bootsnap', '1.4.8', require: false
+gem 'counter_culture', '2.6.1'
 gem 'devise', '4.7.2'
 gem 'faker', '2.14.0'
 gem 'jbuilder', '2.10.1'
