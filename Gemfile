@@ -14,6 +14,7 @@ gem 'faker', '2.14.0'
 gem 'jbuilder', '2.10.1'
 gem 'koala', '3.0.0'
 gem 'overcommit', '0.55.0'
+gem 'paperclip', '6.1.0'
 gem 'puma', '5.0.0'
 gem 'rack-cors', '1.1.1'
 gem 'rails', '6.0.3.3'
@@ -24,7 +25,6 @@ gem 'simple_token_authentication', '1.17.0'
 gem 'sqlite3', '1.4.2'
 gem 'turbolinks', '5.2.1'
 gem 'webpacker', '5.2.1'
-
 # gem 'image_processing', '~> 1.2'
 
 group :development, :test do
